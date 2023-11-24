@@ -14,7 +14,7 @@ class FileStorage:
         the method should not do anything
         """
         if obj is None:
-            return
+            return 'OK'
 
         key = obj.__class__.__name__ + '.' + str(obj.id)
         if key in FileStorage.__objects:
