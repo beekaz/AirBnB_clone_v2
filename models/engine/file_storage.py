@@ -61,7 +61,7 @@ class FileStorage:
                     'Review': Review
                   }
         try:
-#            temp = {}
+            #            temp = {}
             with open(FileStorage.__file_path, 'r') as f:
                 data = f.read()
                 if data:
