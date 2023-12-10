@@ -9,8 +9,8 @@ mkdir -p /data/web_static/shared/
 echo "Holberton School" > /data/web_static/releases/test/index.html
 ln -sf /data/web_static/releases/test/ /data/web_static/current
 
-chown -R ubuntu /data/
-chgrp -R ubuntu /data/
+chown -R beekaz:beekaz /data/
+chgrp -R beekaz /data/
 
 printf %s "server {
     listen 80 default_server;
